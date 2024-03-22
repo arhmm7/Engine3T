@@ -55,7 +55,6 @@ class TicTacToe {
 					}
 					gameRunning = false;
 				}
-
 			}
 		}
 		scn.close();

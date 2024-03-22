@@ -1,10 +1,6 @@
 class Board extends TicTacToe {
-	private String[][] br;
-	private int size = 3;
-	
-	Board(){
-		br = new String[size][size];
-	}
+	private String[][] br = new String[3][3];
+
 	void Init(){
 		for(int i = 0; i < 3 ; i++)
 		{
@@ -24,18 +20,6 @@ class Board extends TicTacToe {
 			}
 			System.out.println("");
 			System.out.println("+---++---++---+");
-		}
-	}
-	void boardCord(){
-		System.out.println("+----++----++----+");
-		for(int i = 0; i < 3 ; i++)
-		{
-			for(int j = 0; j < 3 ; j++)
-			{
-				System.out.print("| " + i + j +  " |");
-			}
-			System.out.println("");
-			System.out.println("+----++----++----+");
 		}
 	}
 	String[][] getBoard(){
