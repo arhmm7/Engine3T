@@ -47,9 +47,9 @@ class Board extends TicTacToe
 		}
 	}
 
-	String getBoard(int x, int y)
+	String[][] getBoard()
 	{
-		return br[x][y];
+		return br;
 	}
 
 	void setBoard(int x, int y , String setString)
