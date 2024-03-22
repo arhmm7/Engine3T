@@ -1,7 +1,5 @@
-class Engine extends TicTacToe
-{
-	Engine()
-	{
+class Engine extends TicTacToe {
+	Engine(){
 
 	}
 }

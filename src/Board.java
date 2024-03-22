@@ -1,15 +1,11 @@
-class Board extends TicTacToe
-{
+class Board extends TicTacToe {
 	private String[][] br;
 	private int size = 3;
-
-	Board()
-	{
+	
+	Board(){
 		br = new String[size][size];
 	}
-
-	void Init()
-	{
+	void Init(){
 		for(int i = 0; i < 3 ; i++)
 		{
 			for(int j = 0; j < 3 ; j++)
@@ -18,9 +14,7 @@ class Board extends TicTacToe
 			}
 		}
 	}
-
-	void printBoard()
-	{
+	void printBoard(){
 		System.out.println("+---++---++---+");
 		for(int i = 0; i < 3 ; i++)
 		{
@@ -32,9 +26,7 @@ class Board extends TicTacToe
 			System.out.println("+---++---++---+");
 		}
 	}
-
-	void boardCord()
-	{
+	void boardCord(){
 		System.out.println("+----++----++----+");
 		for(int i = 0; i < 3 ; i++)
 		{
@@ -46,14 +38,10 @@ class Board extends TicTacToe
 			System.out.println("+----++----++----+");
 		}
 	}
-
-	String[][] getBoard()
-	{
+	String[][] getBoard(){
 		return br;
 	}
-
-	void setBoard(int x, int y , String setString)
-	{
+	void setBoard(int x, int y , String setString){
 		br[x][y] = setString;
 	}
 }
