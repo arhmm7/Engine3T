@@ -1,4 +1,4 @@
 # Engine 3T
-Introducing Engine 3T: a Tic-Tac-Toe engine driven by advanced minimax algorithms. Engineered for optimal gameplay, it provides strategic moves and precise calculations to challenge players at every level.
+Welcome to Engine3T, the ultimate destination for a classic game of TicTacToe, developed in Java and accessible directly from your terminal! Engine3T provides an immersive experience through its slick interface and intuitive gameplay. Strategically arrange your Xs and Os on the 3x3 grid, aiming for victory with each move. With each round, the excitement grows as you hope to form a winning combination.
 ## Authors
 - [@arhmm7](https://www.github.com/arhmm7)

@@ -15,7 +15,7 @@ class TicTacToe {
 		br.printBoard();
 
 		String[][] tempBoard = new String[3][3];
-		int inp = 0, move = 0;
+		int inp = 0, move = 1;
 		boolean gameRunning = true , PLAYER_1_PLAYS = true;
 
 		while (gameRunning) {
@@ -24,6 +24,7 @@ class TicTacToe {
 				if (PLAYER_1_PLAYS) {
 					inp = scn.nextInt();
 					br.setBoard(gl.getX(inp), gl.getY(inp), Player_1);
+					System.out.println("Move :" + move);
 					br.printBoard();
 					PLAYER_1_PLAYS = false;
 					move = move + 1;
@@ -31,6 +32,7 @@ class TicTacToe {
 				else {
 					inp = scn.nextInt();
 					br.setBoard(gl.getX(inp), gl.getY(inp), Player_2);
+					System.out.println("Move :" + move);
 					br.printBoard();
 					PLAYER_1_PLAYS = true;
 					move = move + 1;
